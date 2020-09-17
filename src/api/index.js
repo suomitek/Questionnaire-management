@@ -1,7 +1,7 @@
 import axios from 'axios'
 import storage, { TOKEN_KEY } from './../public/js/storage';
 
-export const apiDomain = 'https://i-code.top/qs'
+export const apiDomain = 'http://127.0.0.1:8050/qs'
 const baseURL = `${apiDomain}/api/v1`
 
 axios.defaults.baseURL = baseURL
